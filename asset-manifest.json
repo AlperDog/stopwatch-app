@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/stopwatch-app/static/css/main.dc98b73f.css",
+    "main.js": "/stopwatch-app/static/js/main.2cd49e34.js",
+    "index.html": "/stopwatch-app/index.html",
+    "main.dc98b73f.css.map": "/stopwatch-app/static/css/main.dc98b73f.css.map",
+    "main.2cd49e34.js.map": "/stopwatch-app/static/js/main.2cd49e34.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc98b73f.css",
+    "static/js/main.2cd49e34.js"
+  ]
+}
