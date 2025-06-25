@@ -39,7 +39,7 @@ const Stopwatch: React.FC = () => {
   };
 
   const addLap = () => {
-    if (isRunning) {
+    if (time > 0) {
       setLaps(prevLaps => [...prevLaps, time]);
     }
   };
@@ -89,7 +89,7 @@ const Stopwatch: React.FC = () => {
           <button 
             className="btn btn-warning btn-lg"
             onClick={addLap}
-            disabled={!isRunning}
+            disabled={time === 0}
           >
             <i className="fas fa-flag me-2"></i>
             Lap
