@@ -22,21 +22,6 @@ A precise and feature-rich stopwatch application built with React and TypeScript
 - **TypeScript** - Type-safe development
 - **Bootstrap 5** - Responsive UI components
 - **CSS3** - Custom styling and animations
-- **GitHub Pages** - Automated deployment
-
-## 📱 Screenshots
-
-### Desktop View
-
-- Large, easy-to-read timer display
-- Color-coded control buttons
-- Organized lap history
-
-### Mobile View
-
-- Touch-friendly interface
-- Responsive layout
-- Optimized for small screens
 
 ## 🚀 Getting Started
 
@@ -44,73 +29,6 @@ A precise and feature-rich stopwatch application built with React and TypeScript
 
 - Node.js (version 14 or higher)
 - npm or yarn
-
-### Installation
-
-1. **Clone the repository**
-
-   ```bash
-   git clone https://github.com/AlperDog/stopwatch-app.git
-   cd stopwatch-app
-   ```
-
-2. **Install dependencies**
-
-   ```bash
-   npm install
-   ```
-
-3. **Start the development server**
-
-   ```bash
-   npm start
-   ```
-
-4. **Open your browser**
-   Navigate to `http://localhost:3000`
-
-### Building for Production
-
-```bash
-npm run build
-```
-
-### Deployment
-
-The app is automatically deployed to GitHub Pages:
-
-```bash
-npm run deploy
-```
-
-## 🎯 How to Use
-
-1. **Start the Timer**: Click the green "Start" button to begin timing
-2. **Record Laps**: Click "Lap" to record split times while the timer is running
-3. **Pause**: Click "Stop" to pause the timer
-4. **Resume**: Click "Start" again to continue from where you left off
-5. **Reset**: Click "Reset" to clear all data and start over
-
-## 📊 Features in Detail
-
-### Timer Display
-
-- **Format**: MM:SS.ms (minutes:seconds.milliseconds)
-- **Font**: Monospace for consistent character width
-- **Size**: Large display for easy reading
-
-### Lap Functionality
-
-- **Individual Lap Times**: Shows time for each specific lap
-- **Cumulative Times**: Shows total time up to each lap
-- **Scrollable List**: Handles multiple laps with smooth scrolling
-- **Visual Separation**: Each lap is clearly distinguished
-
-### Control Buttons
-
-- **Start/Stop**: Toggle between green play and red pause
-- **Lap**: Only active when timer is running
-- **Reset**: Always available to clear everything
 
 ## 🔧 Technical Implementation
 
@@ -165,23 +83,12 @@ Easy to extend with:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 👨‍💻 Author
 
 **Alper Doğramacı**
 
 - GitHub: [@AlperDog](https://github.com/AlperDog)
 - Portfolio: [https://alperdog.github.io/portfolio](https://alperdog.github.io/portfolio)
-
-## 🙏 Acknowledgments
-
-- React team for the amazing framework
-- Bootstrap for the responsive UI components
-- GitHub Pages for free hosting
-- The open-source community for inspiration
 
 ---
 
